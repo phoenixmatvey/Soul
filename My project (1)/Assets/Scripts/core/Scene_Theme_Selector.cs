@@ -1,23 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-
-public class Scene_Theme_Selector : MonoBehaviour
-{
-    public GameObject[] Number = new GameObject[Scene_Theme.Scene_Theme_total];
-    public int Scena_theme_local_number;
-    // Start is called before the first frame update
-    void Start()
-    {
-        Scena_theme_local_number = Scene_Theme.Scene_Theme_number;
-        Number[Scena_theme_local_number].SetActive(true);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        Number[Scena_theme_local_number].SetActive(true);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c54bfa3e6f57020122191248ea8e96b37fa5c1d6b54c0c9f2e80de14042625e
+size 834

@@ -1,36 +1,3 @@
-using System.Collections;
-using UnityEngine.UI;
-using System.Collections.Generic;
-using UnityEngine;
-
-
-public class Check_fields : MonoBehaviour
-{
-    //Set all text fields
-    public InputField First_name;
-    public InputField Second_name;
-    public InputField Third_name;
-
-    public Button Start_button;
-
-    public void Check_Correct()
-    {
-        if ((First_name.text.Length != 0) &&
-            (Second_name.text.Length != 0))
-        {
-            Start_button.gameObject.SetActive(true);
-        }
-        else
-        {
-            if (First_name.text.Length == 0)
-            {
-                First_name.GetComponent<Text>().color = new Color(255, 0, 0);
-            }
-            if (Second_name.text.Length == 0)
-            {
-                Second_name.GetComponent<Text>().color = new Color(255, 0, 0);
-            }
-        }
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b86711e0eaa9af9e5793021f1b572c28e13881716d92b99c3694fa2cf5735de
+size 916
